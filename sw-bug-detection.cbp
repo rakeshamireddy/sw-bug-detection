@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="sw-bug-detection" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="build">
+				<Option output="build/sw-bug-detection" prefix_auto="1" extension_auto="1" />
+				<Option object_output="build/obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="inc/cluster" />
+					<Add directory="inc/em" />
+					<Add directory="inc/kn" />
+					<Add directory="inc/lr" />
+					<Add directory="inc/nb" />
+					<Add directory="inc/nn" />
+					<Add directory="inc/pca" />
+					<Add directory="inc/svm" />
+					<Add directory="src/include" />
+					<Add directory="inc" />
+				</Compiler>
+				<Linker>
+					<Add option="-lvec" />
+					<Add option="-lalgs" />
+					<Add option="-lboost_system" />
+					<Add directory="lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="src/Fold.cpp" />
+		<Unit filename="src/Instance.cpp" />
+		<Unit filename="src/include/Fold.hpp" />
+		<Unit filename="src/include/Instance.hpp" />
+		<Unit filename="src/include/main.hpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

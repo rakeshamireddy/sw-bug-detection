@@ -1,0 +1,184 @@
+# depslib dependency file v1.0
+1429399647 source:/home/USB/School/Spring 2015/EOSF522/Project/code/sw-bug-detection/src/Fold.cpp
+	"Fold.hpp"
+
+1429401818 /home/USB/School/Spring 2015/EOSF522/Project/code/sw-bug-detection/src/include/Fold.hpp
+	<vector>
+	<Instance.hpp>
+
+1424551076 /home/USB/School/Spring 2015/EOSF522/Project/code/sw-bug-detection/inc/Vec.hpp
+	<string>
+	<vector>
+	<xmmintrin.h>
+	<malloc.h>
+	<math.h>
+	<float.h>
+
+1429402164 source:/home/USB/School/Spring 2015/EOSF522/Project/code/sw-bug-detection/src/main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<boost/algorithm/string.hpp>
+	<boost/lexical_cast.hpp>
+	"main.hpp"
+	<Vec.hpp>
+	"Fold.hpp"
+	"Instance.hpp"
+	"NaiveBayesClassifier.hpp"
+
+1429394474 /home/USB/School/Spring 2015/EOSF522/Project/code/sw-bug-detection/src/include/main.hpp
+
+1425680722 /home/USB/School/Spring 2015/EOSF522/Project/code/sw-bug-detection/inc/nb/NaiveBayesClassifier.hpp
+	<string>
+	<vector>
+	<map>
+	"Domain.hpp"
+	<Vec.hpp>
+
+1425680151 /home/USB/School/Spring 2015/EOSF522/Project/code/sw-bug-detection/inc/nb/Domain.hpp
+
+1429399810 /home/USB/School/Spring 2015/EOSF522/Project/code/sw-bug-detection/src/include/Example.hpp
+	<Vec.hpp>
+
+1429399841 source:/home/USB/School/Spring 2015/EOSF522/Project/code/sw-bug-detection/src/Example.cpp
+	"Example.hpp"
+
+1429401796 /home/USB/School/Spring 2015/EOSF522/Project/code/sw-bug-detection/src/include/Instance.hpp
+	<Vec.hpp>
+
+1429402483 source:/home/USB/School/Spring 2015/EOSF522/Project/code/sw-bug-detection/src/Instance.cpp
+	"Instance.hpp"
+
+1429399647 source:/home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/src/Fold.cpp
+	"Fold.hpp"
+
+1429401818 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/src/include/Fold.hpp
+	<vector>
+	<Instance.hpp>
+
+1429401796 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/src/include/Instance.hpp
+	<Vec.hpp>
+
+1424551076 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/Vec.hpp
+	<string>
+	<vector>
+	<xmmintrin.h>
+	<malloc.h>
+	<math.h>
+	<float.h>
+
+1429402483 source:/home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/src/Instance.cpp
+	"Instance.hpp"
+
+1429516036 source:/home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/src/main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<string>
+	<boost/algorithm/string.hpp>
+	<boost/lexical_cast.hpp>
+	"main.hpp"
+	<Vec.hpp>
+	"Fold.hpp"
+	"Instance.hpp"
+	"NaiveBayesClassifier.hpp"
+	"Domain.hpp"
+	"NeuralNetworkClassifier.hpp"
+	"Kernel.hpp"
+	"Machine.hpp"
+	"ProbCal.hpp"
+	"BaseMachine.hpp"
+	"SMO.hpp"
+	"Classifier.hpp"
+	"KNearestClassifier.hpp"
+	"Model.hpp"
+
+1429394474 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/src/include/main.hpp
+
+1425680722 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/nb/NaiveBayesClassifier.hpp
+	<string>
+	<vector>
+	<map>
+	"Domain.hpp"
+	<Vec.hpp>
+
+1425680151 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/nb/Domain.hpp
+
+1425695633 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/nn/NeuralNetworkClassifier.hpp
+	<string>
+	<vector>
+	<Vec.hpp>
+
+1425709864 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/svm/Kernel.hpp
+	<Vec.hpp>
+
+1429392871 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/svm/Machine.hpp
+	"Logit.hpp"
+	"Kernel.hpp"
+	<vector>
+
+1429392842 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/svm/Logit.hpp
+
+1425717493 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/svm/ProbCal.hpp
+	<vector>
+	"Machine.hpp"
+	"Kernel.hpp"
+
+1425717226 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/svm/BaseMachine.hpp
+	<vector>
+	"Machine.hpp"
+	"Kernel.hpp"
+	<Vec.hpp>
+
+1425717508 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/svm/SMO.hpp
+	"BaseMachine.hpp"
+	"Machine.hpp"
+	"KernelCache.hpp"
+	<vector>
+	<unordered_set>
+	<mutex>
+
+1425717301 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/svm/KernelCache.hpp
+	"Kernel.hpp"
+	<unordered_map>
+	<list>
+	<vector>
+
+1429514161 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/lr/Classifier.hpp
+	<Vec.hpp>
+	<vector>
+	"Logistic.hpp"
+	"SingularValueDecomposition.hpp"
+
+1427239309 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/lr/Logistic.hpp
+	<Vec.hpp>
+	"LogitLink.hpp"
+
+1425875933 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/lr/LogitLink.hpp
+
+1425884281 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/lr/SingularValueDecomposition.hpp
+	<Vec.hpp>
+
+1425704193 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/kn/KNearestClassifier.hpp
+	"KDTree.hpp"
+	<string>
+	<vector>
+	<Vec.hpp>
+
+1425701494 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/kn/KDTree.hpp
+	"KDNode.hpp"
+	<cstdlib>
+	<vector>
+
+1425701485 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/kn/KDNode.hpp
+	<Vec.hpp>
+
+1424744248 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/em/Model.hpp
+	"Gaussian.hpp"
+	<vector>
+
+1424728270 /home/USB/School/Spring2015/EOSF522/Project/code/sw-bug-detection/inc/em/Gaussian.hpp
+	<Vec.hpp>
+	<vector>
+
