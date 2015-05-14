@@ -102,5 +102,4 @@ plotMeanAccuracy <- function() {
   colnames(plotdata) <- models
   rownames(plotdata) <- c("Accuracy","F1")
   barplot(plotdata, xlab="Classifier", legend = rownames(plotdata), beside=TRUE)
-  
 }
